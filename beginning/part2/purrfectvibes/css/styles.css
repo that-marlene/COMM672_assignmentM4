@@ -1,11 +1,10 @@
 body {
     width: 960px;
     max-width: 100%;
-    margin: 2px;
+    margin: 20px auto;
     font-family: Arial, Helvetica, sans-serif;
-    size: 1em;
+    font-size: 1em;
     line-height: 2em;
-    background-color: #ededed ;
 }
 
 .main-nav {
@@ -25,4 +24,41 @@ body {
 .main-nav a.active {
     color: #222E50;
     font-weight: bold;
+}
+
+h2 {
+    background-color: #EFEFEF;
+    color: #B3679B;
+    border: 2px solid #222E50;
+    border-radius: 8px;
+    padding: 8px 0 8px 10px;
+}
+
+a {
+    color: #B3679B;
+}
+
+.feature {
+    width: 33%;
+    border: 2px solid #222E50;
+    border-radius: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feature img {
+    width: 100%;
+    display: block;
+}
+.feature-title {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.feature p {
+    margin: 0;
 }
