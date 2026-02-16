@@ -62,3 +62,18 @@ a {
 .feature p {
     margin: 0;
 }
+
+
+table {
+    margin: 0;
+    border-collapse: separate;
+    border-spacing: 0 50px;
+}
+
+td {
+    padding: 0 10px;
+}
+
+tr td:first-child {
+    background-color: #f2f2f2;
+}
