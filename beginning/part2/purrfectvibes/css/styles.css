@@ -81,8 +81,27 @@ a {
 
 /*--- Our team, About us ---*/
 
+.team-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
 
+.team-table td {
+    padding: 20px;
+    vertical-align: top;
+}
 
+.team-table tr td:first-child {
+    background-color: #f2f2f2;
+    width: 150px;
+    text-align: center;
+}
 
+.team-table img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
 
