@@ -36,7 +36,7 @@ body {
 h2 {
     background-color: #EFEFEF;
     color: #B3679B;
-    border: 2px solid #222E50;
+    border: 1px solid #222E50;
     border-radius: 8px;
     padding: 8px 0 8px 10px;
 }
@@ -45,22 +45,41 @@ a {
     color: #B3679B;
 }
 
-.features-container table {
-    width: 100%;
-    border-collapse: collapse;
-}
-.features-container tr td:first-child {
-    background-color: #f2f2f2;
+/*-- Our features, Index ---*/
+
+.features-container {
+    display: grid;
+    grid-template-columns: 33%;
+    justify-content: start;
+    gap: 15px;
 }
 
-.features-container tr td:last-child {
-    border: 2px solid #222E50
-    border-radius: 12px;
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #222E50;
+    border-radius: 16px;
+    padding: 15px;
+
+}
+
+.feature img {
+    width: 100%;
+}
+
+.feature h3,
+.feature p {
+    margin: 10px;
 }
 
 .feature-title {
     font-weight: bold;
 }
+/*--- end our features, index ---*/
+
+
 
 
 
