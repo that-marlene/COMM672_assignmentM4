@@ -80,16 +80,20 @@ a {
 
 
 /*--- Our team, About us ---*/
+.team-page .features-container {
+    display: block;
+}
 
 .team-table {
     width: 100%;
-    border-collapse: collapse;
     table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 0 50px;
 }
 
 .team-table td {
     padding: 20px;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .team-table tr td:first-child {
@@ -99,9 +103,10 @@ a {
 }
 
 .team-table img {
-    width: 100%;
-    height: auto;
+    width: 150px;
+    height: 150px;
     display: block;
+    margin: 0 auto;
 }
 
 
