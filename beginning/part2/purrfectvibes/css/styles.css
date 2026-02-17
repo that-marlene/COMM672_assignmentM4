@@ -15,14 +15,21 @@ body {
 
 /* Style links */
 .main-nav a {
-    text-decoration: none;
-    color: #000;
+    text-decoration: underline;
+    color: #B3679B;
     padding: 5px 0;
 }
 
 /* Active state */
-.main-nav a.active {
+.main-nav a:hover {
     color: #222E50;
+    font-weight: bold;
+}
+
+/*--selected page--*/
+.main-nav a.active {
+    text-decoration: none;
+    color: #000;
     font-weight: bold;
 }
 
