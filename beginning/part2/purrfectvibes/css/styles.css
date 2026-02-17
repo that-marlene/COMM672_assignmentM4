@@ -115,5 +115,30 @@ a {
     margin: 0 auto;
 }
 
-/*---features cards---*/
+/*---features page---*/
 
+.feature-container {
+    margin-top: 40px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+
+.feature-container img {
+    width: 300px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.feature-container p:first-of-type {
+    font-weight: normal;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.feature-container p:last-of-type {
+    text-align: right;
+    margin-top: 20px;
+}
