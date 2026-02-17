@@ -80,6 +80,12 @@ a {
 
 
 /*--- Our team, About us ---*/
+
+
+.team-page h2 {
+    margin: 20px 0 10px 0;
+}
+
 .team-page .features-container {
     display: block;
 }
@@ -109,4 +115,5 @@ a {
     margin: 0 auto;
 }
 
+/*---features cards---*/
 
